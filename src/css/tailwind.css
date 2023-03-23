@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container-card{
+    @apply w-48 h-64 shadow-md rounded-lg flex-none transform transition-all hover:-translate-y-4 hover:shadow-xl;
+}
+
+.card-body-green{
+    @apply w-full h-2/5 bg-secondary rounded-b-lg dark:bg-gray-700;
+}
+
+.card-body-white{
+    @apply w-full h-2/5 bg-white rounded-b-lg dark:bg-gray-800 ;
+}
+
+.card-title{
+    @apply text-3xl px-8 pt-8 pb-2 font-semibold text-white lg:text-end;
+}
